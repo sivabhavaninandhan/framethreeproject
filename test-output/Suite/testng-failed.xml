@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="TestORNGHRM(failed)">
+    <parameter name="author" value="ganga"/>
+    <classes>
+      <class name="thirddatadrivenformatterextentframeworkthird.datadriverextetntestng">
+        <methods>
+          <include name="setup"/>
+          <include name="checkstatus"/>
+          <include name="initialiseExtentreports"/>
+          <include name="testOrangeHRMone" invocation-numbers="1 2 3"/>
+          <include name="generateExtentreports"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- thirddatadrivenformatterextentframeworkthird.datadriverextetntestng -->
+    </classes>
+  </test> <!-- TestORNGHRM(failed) -->
+  <test thread-count="5" name="TestFaceBook(failed)">
+    <parameter name="author" value="bhavani"/>
+    <classes>
+      <class name="thirddatadrivenformatterextentframeworkthird.datadriverextetntestng">
+        <methods>
+          <include name="setup"/>
+          <include name="checkstatus"/>
+          <include name="initialiseExtentreports"/>
+          <include name="testfacebooks"/>
+          <include name="generateExtentreports"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- thirddatadrivenformatterextentframeworkthird.datadriverextetntestng -->
+    </classes>
+  </test> <!-- TestFaceBook(failed) -->
+</suite> <!-- Failed suite [Suite] -->
