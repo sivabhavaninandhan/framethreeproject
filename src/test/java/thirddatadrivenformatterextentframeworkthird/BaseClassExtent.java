@@ -103,7 +103,7 @@ public class BaseClassExtent {
 		     screenshotsubfolder = myDateObj.format(myFormatObj);
 		   // System.out.println("After formatting: " + formattedDate);
 		}
-		String path="./Screenshot16/"+screenshotsubfolder+photo;
+		String path="./Screenshot17/"+screenshotsubfolder+photo;
 		TakesScreenshot ts=(TakesScreenshot)driver;
 		File source=ts.getScreenshotAs(OutputType.FILE);
 		File dest=new File(path);
